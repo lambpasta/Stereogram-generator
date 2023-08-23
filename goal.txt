@@ -1,0 +1,14 @@
+I want to make a program that:
+    takes in a depthmap (maybe a greyscale image)
+    selects a pattern for background
+    takes screen resolution, screen size, eye distance
+    generates a magic eye image to download
+
+first step:
+    generate a reccuring pattern using a vertical pattern slice
+
+next step:
+    take the right parameters to scale it to the right size for magic eye
+
+next step:
+    recieve depthmap and then shift pixels according to depthmap. (deeper = farther apart)
